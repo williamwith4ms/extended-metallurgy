@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "williammmms-extended-metallurgy",
+	"version": "${version}",
+	"name": "williammmm's Extended Metallurgy",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"williammmm"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/williammmms-extended-metallurgy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.williammmm.extendedmetallurgy.WilliammmmsExtendedMetallurgy"
+		],
+		"fabric-datagen": [
+			"dev.williammmm.extendedmetallurgy.WilliammmmsExtendedMetallurgyDataGenerator"
+		],
+		"client": [
+			"dev.williammmm.extendedmetallurgy.WilliammmmsExtendedMetallurgyClient"
+		]
+	},
+	"mixins": [
+		"williammmms-extended-metallurgy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
