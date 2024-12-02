@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "williammmms_extended_metallurgy:item/lead_ingot"
+  }
+}
